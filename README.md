@@ -35,28 +35,6 @@ which has all of this either built-in or easily reachable e.g: https://github.co
 
 A workflow engine that can simplify writing orchestration between various APIs/services.
 
-### Building Construction Analogy
-
-If we use real-world construction as the basis for an analogy.
-
-<img width="1047" alt="image" src="https://user-images.githubusercontent.com/194400/158482229-c4de7310-6f60-40a9-90fd-347392126293.png">
-
-If you're building a free-standing single-family home,
-you can probably just use a basic framing 
-(bricks+mortar, timber & standard job-site tools)
-to accomplish a good result.
-However if you are building a **sky scraper** or a new **city**,
-you need to think about the _infrastructure_ and use a very different 
-construction method,
-e.g. steel reinforced concrete, 
-large quantities of structural glass,
-excavators, tower cranes & specialised engineering contractors.
-
-Temporal is a framework for a different level of engineering challenge.
-If you're not building the digital equivalent of a Skyscraper,
-use something simpler that doesn't require a dedicated DevOps person on your team!
-
-
 
 
 ## Who?
@@ -123,3 +101,36 @@ https://docs.temporal.io/docs/typescript/workflows/
 https://docs.temporal.io/docs/typescript/activities/
 + TypeScript SDK:
 https://github.com/temporalio/sdk-typescript
+
+
+### Building Construction Analogy
+
+If we use real-world construction as the basis for an analogy.
+
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/194400/158482229-c4de7310-6f60-40a9-90fd-347392126293.png">
+
+If you're building a free-standing single-family home,
+you can probably use traditional framing 
+(bricks+mortar, timber & standard job-site tools)
+to accomplish a good result.
+Many impressive homes and even palaces have been built with this method over the centuries
+and it's still a perfectly valid means of construction today.
+
+This would be your standard but perfectly good web framework
+which can be deployed in 5 minutes and scaled to meet the demand/needs of the intended audience.
+
+
+However if you are building a **sky scraper** or a new **city**,
+you need to think about the _infrastructure_ and use a very different 
+construction method,
+e.g. steel reinforced concrete, 
+large quantities of structural glass,
+excavators, tower cranes & specialised engineering contractors.
+
+Temporal is a framework for a different level of engineering challenge.
+If you're not building the digital equivalent of a Skyscraper,
+use something simpler that doesn't require a dedicated DevOps person on your team!
+
+The vast majority of architects, engineers and trades people are not building skyscrapers.
+But if you are a City Planner or Structural Engineer, 
+then by all means use consider the advanced tools for the job.
