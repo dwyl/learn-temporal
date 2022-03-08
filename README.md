@@ -38,6 +38,9 @@ A workflow engine that can simplify writing orchestration between various APIs/s
 ### Building Construction Analogy
 
 If we use real-world construction as the basis for an analogy.
+
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/194400/158482229-c4de7310-6f60-40a9-90fd-347392126293.png">
+
 If you're building a free-standing single-family home,
 you can probably just use a basic framing 
 (bricks+mortar, timber & standard job-site tools)
