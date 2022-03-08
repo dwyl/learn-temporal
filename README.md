@@ -1,15 +1,13 @@
 <div align="center">
-
-    <h1> Learn Temporal </h1>
-    <a href="https://travis-ci.com/">
-        <img src="https://user-images.githubusercontent.com/194400/158250447-78d23304-94aa-4850-a8d6-9c3e3815a304.jpeg" alt="Temporal Logo">
-    </a>
-    <p>
-        A <em><strong>quick intro</strong></em> to 
-        <strong>[temporal.io](https://temporal.io) </strong> (<em>Workflow Engine</em>)
-        for <em><strong>busy engineers</strong></em>.
-    </p>
-
+  <h1> Learn Temporal </h1>
+  <a href="https://temporal.io/">
+    <img src="https://user-images.githubusercontent.com/194400/158250447-78d23304-94aa-4850-a8d6-9c3e3815a304.jpeg" alt="Temporal Logo">
+  </a>
+  <p>
+    A <em><strong>quick intro</strong></em> to 
+    <strong>[temporal.io](https://temporal.io) </strong> (<em>Workflow Engine</em>)
+    for <em><strong>busy engineers</strong></em>.
+  </p>
 </div>
 
 ## Why?
