@@ -33,7 +33,27 @@ which has all of this either built-in or easily reachable e.g: https://github.co
 
 ## What?
 
-A workflow engine that simplifies writing orchestration between various APIs/services.
+A workflow engine that can simplify writing orchestration between various APIs/services.
+
+### Building Construction Analogy
+
+If we use real-world construction as the basis for an analogy.
+If you're building a free-standing single-family home,
+you can probably just use a basic framing 
+(bricks+mortar, timber & standard job-site tools)
+to accomplish a good result.
+However if you are building a **sky scraper** or a new **city**,
+you need to think about the _infrastructure_ and use a very different 
+construction method,
+e.g. steel reinforced concrete, 
+large quantities of structural glass,
+excavators, tower cranes & specialised engineering contractors.
+
+Temporal is a framework for a different level of engineering challenge.
+If you're not building the digital equivalent of a Skyscraper,
+use something simpler that doesn't require a dedicated DevOps person on your team!
+
+
 
 
 ## Who?
