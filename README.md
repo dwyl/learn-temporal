@@ -5,7 +5,7 @@
   </a>
   <p>
     A <em><strong>quick intro</strong></em> to 
-    <strong>[temporal.io](https://temporal.io) </strong> (<em>Workflow Engine</em>)
+    <strong><a href="https://temporal.io">temporal.io</a></strong> (<em>Workflow Engine</em>)
     for <em><strong>busy engineers</strong></em>.
   </p>
 </div>
