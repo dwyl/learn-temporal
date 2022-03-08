@@ -55,3 +55,15 @@ https://docs.temporal.io/blog/workflow-engine-principles/#temporal-architecture-
 https://theburningmonk.com/2020/08/choreography-vs-orchestration-in-the-land-of-serverless/
 + What is a Temporal Cluster?
 https://docs.temporal.io/docs/concepts/what-is-a-temporal-cluster/
++ TypeScript Introduction:
+https://docs.temporal.io/docs/typescript/introduction/
++ TypeScript Getting Started: 
+https://docs.temporal.io/docs/typescript/introduction/#getting-started
++ Getting Started Google Doc (Presentation):
+https://docs.google.com/presentation/d/1mAPYXNmRdDKepXylB91F2uqFyHm8rG12K2PMRHxoUfM/edit#slide=id.g104dc941926_0_187
++ Workflows in TypeScript:
+https://docs.temporal.io/docs/typescript/workflows/
++ Activities in TypeScript: 
+https://docs.temporal.io/docs/typescript/activities/
++ TypeScript SDK:
+https://github.com/temporalio/sdk-typescript
