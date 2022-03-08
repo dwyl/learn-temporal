@@ -2,7 +2,7 @@
 
 A quick intro to 
 [temporal.io](https://temporal.io) 
-for busy engineers who need to get started fast!
+for busy engineers who need to get started _fast_!
 
 ## Why?
 
@@ -27,7 +27,7 @@ You need to build a robust system but don't want to use Elixir/Erlang which has 
 
 ## What?
 
-
+A workflow engine that 
 
 
 ## Who?
@@ -36,7 +36,14 @@ You need to build a robust system but don't want to use Elixir/Erlang which has 
 
 ## How?
 
+Hello World Walkthrough in TypeScript:
+https://docs.temporal.io/docs/typescript/hello-world/
 
+
+# Want a 10 min Step-by-Step Tutorial?
+
+Your wish is my command: 
+[**`/tutorial`**]()
 
 
 
