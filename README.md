@@ -1,10 +1,9 @@
 <div align="center">
-  <h1> Learn Temporal </h1>
   <a href="https://temporal.io/">
     <img src="https://user-images.githubusercontent.com/194400/158250447-78d23304-94aa-4850-a8d6-9c3e3815a304.jpeg" alt="Temporal Logo">
   </a>
   <p>
-    A <em><strong>quick intro</strong></em> to 
+    <strong>Learn Temporal</strong>: a <em><strong>quick intro</strong></em> to 
     <strong><a href="https://temporal.io">temporal.io</a></strong> (<em>Workflow Engine</em>)
     for <em><strong>busy engineers</strong></em>.
   </p>
@@ -42,6 +41,30 @@ A workflow engine that simplifies writing orchestration between various APIs/ser
 If you are building a complex app that has many moving parts 
 e.g: microservices, datastores & 3rd party / unreliable APIs,
 Temporal can greatly simplify this process.
+
+If you're _not_ building something 
+that has many moving parts,
+you **_probably_**
+[**don't need**](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) 
+Temporal, yet. 
+You can still _learn_ how Temporal Workflows work 
+if you're _curious_;
+that's great!
+But don't feel the need to over-engineer
+a simple App just because you have a shiny new tool.
+
+<div align="center">
+  <a href="https://en.wikipedia.org/wiki/Overengineering">
+    <img src="https://user-images.githubusercontent.com/194400/158479521-81cfdde3-8c4c-43fb-829a-2ca0459094eb.png" 
+    alt="over engineering">
+  </a>
+  <p>
+    <a href="https://imgs.xkcd.com/comics/the_general_problem.png">
+      https://imgs.xkcd.com/comics/the_general_problem.png
+    </a>
+  </p>
+</div>
+
 
 
 

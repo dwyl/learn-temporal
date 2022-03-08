@@ -23,17 +23,19 @@ To run this example, you will need:
 1. Make sure Temporal Server is running locally 
 (see the [quick install guide](https://docs.temporal.io/docs/server/quick-install/)).
 
-If you don't already have a `docker-compose` directory in the root of your project,
+If you don't already have a `docker-compose` directory 
+in the root of your project,
 clone it from:
 
-```
+```sh
 git clone https://github.com/temporalio/docker-compose.git
 ```
 
 Once you have a `docker-compose` directory, 
-run the following:
+open a second termnial window/tab 
+and run the following:
 
-```
+```sh
 cd  docker-compose
 docker-compose up
 ```
@@ -44,7 +46,10 @@ you should see something similar to the following in the Docker Desktop App:
 ![docker-temporal-5-containers](https://user-images.githubusercontent.com/194400/157717991-1acf3bf2-db3a-4167-bce1-4bd080aa32ae.png)
 
 
-2. `npm install` to install dependencies.
+2. Install the node.js dependencies by running: `npm install` 
+(in the root directory of the project, where the `package.json` file is)
+
+Once 
 
 3. `npm run start.watch` to start the Worker.
 
