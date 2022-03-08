@@ -1,8 +1,16 @@
-# Learn Temporal
+<div align="center">
 
-A quick intro to 
-[temporal.io](https://temporal.io) 
-for busy engineers who need to get started _fast_!
+    <h1> Learn Temporal </h1>
+    <a href="https://travis-ci.com/">
+        <img src="https://user-images.githubusercontent.com/194400/158250447-78d23304-94aa-4850-a8d6-9c3e3815a304.jpeg" alt="Temporal Logo">
+    </a>
+    <p>
+        A <em><strong>quick intro</strong></em> to 
+        <strong>[temporal.io](https://temporal.io) </strong> (<em>Workflow Engine</em>)
+        for <em><strong>busy engineers</strong></em>.
+    </p>
+
+</div>
 
 ## Why?
 
@@ -21,16 +29,21 @@ don't worry, we will break it down below.
 
 
 <!--
-You need to build a robust system but don't want to use Elixir/Erlang which has all of this either built-in or easily reachable e.g: https://github.com/safwank/ElixirRetry
+You need to build a robust system but don't want to use Elixir/Erlang 
+which has all of this either built-in or easily reachable e.g: https://github.com/safwank/ElixirRetry
 -->
 
 
 ## What?
 
-A workflow engine that 
+A workflow engine that simplifies writing orchestration between various APIs/services.
 
 
 ## Who?
+
+If you are building a complex app that has many moving parts 
+e.g: microservices, datastores & 3rd party / unreliable APIs,
+Temporal can greatly simplify this process.
 
 
 
@@ -43,8 +56,7 @@ https://docs.temporal.io/docs/typescript/hello-world/
 # Want a 10 min Step-by-Step Tutorial?
 
 Your wish is my command: 
-[**`/tutorial`**]()
-
+[**`/tutorial`**](https://github.com/dwyl/learn-temporal/tree/main/tutorial)
 
 
 ## Recommended Reading
