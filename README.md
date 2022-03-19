@@ -21,9 +21,16 @@ with built-in task queue, state management and retry mechanism
 to handle communicating/coordinating with several slow 
 or unreliable 3rd party systems.
 
-If that sounds like a bit of a buzzword soup, 
-don't worry, we will break it down below.
+If that sounds like a bit of a buzzword soup ...
 
+<img alt="dilbert buzzword bingo" 
+  src="https://user-images.githubusercontent.com/194400/158487250-dc73bdff-3afa-4234-9b0f-da65852a0e87.png">
+
+don't worry, we will break it down as we go.
+
+You can still play buzzword bingo if you like.
+Or just have a sip of water each time 
+the CEO/CTO of Temporal says the word "scalable". 😉
 
 <!--
 You need to build a robust system but don't want to use Elixir/Erlang 
@@ -47,7 +54,7 @@ If you're _not_ building something
 that has many moving parts,
 you **_probably_**
 [**don't need**](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) 
-Temporal, yet. 
+Temporal, yet. <br />
 You can still _learn_ how Temporal Workflows work 
 if you're _curious_;
 that's great!
@@ -60,7 +67,7 @@ a simple App just because you have a shiny new tool.
     alt="over engineering">
   </a>
   <p>
-    <a href="https://imgs.xkcd.com/comics/the_general_problem.png">
+    <a href="https://xkcd.com/974">
       https://imgs.xkcd.com/comics/the_general_problem.png
     </a>
   </p>
@@ -71,11 +78,20 @@ a simple App just because you have a shiny new tool.
 
 ## How?
 
-Hello World Walkthrough in TypeScript:
+If you're feeling adventurous, 
+dive straight into the official 
+`TypeScript` Hello World Walkthrough:
 https://docs.temporal.io/docs/typescript/hello-world/
 
+It's a good way for you
+to see how good the Temporal docs 
+& onboarding steps are.
 
-# Want a 10 min Step-by-Step Tutorial?
+If (when) you get stuck,
+or if you don't want to waste too much time,
+come back here for the step-by-step guide.
+
+## Short on Time & Want a 10 min Step-by-Step Tutorial?
 
 Your wish is my command: 
 [**`/tutorial`**](https://github.com/dwyl/learn-temporal/tree/main/tutorial)
@@ -102,21 +118,27 @@ https://docs.temporal.io/docs/typescript/activities/
 + TypeScript SDK:
 https://github.com/temporalio/sdk-typescript
 
+<br />
+<hr />
+<br />
 
 ### Building Construction Analogy
 
 If we use real-world construction as the basis for an analogy.
 
-<img width="1047" alt="image" src="https://user-images.githubusercontent.com/194400/158482229-c4de7310-6f60-40a9-90fd-347392126293.png">
+<img width="1047" alt="skyscraper vs. house" 
+  src="https://user-images.githubusercontent.com/194400/158482229-c4de7310-6f60-40a9-90fd-347392126293.png">
 
 If you're building a free-standing single-family home,
-you can probably use traditional framing 
+traditional framing 
 (bricks+mortar, timber & standard job-site tools)
-to accomplish a good result.
+is probably adequate 
+to achieve a good result.
 Many impressive homes and even palaces have been built with this method over the centuries
 and it's still a perfectly valid means of construction today.
 
-This would be your standard but perfectly good web framework
+This would be your standard 
+but perfectly functional web framework
 which can be deployed in 5 minutes and scaled to meet the demand/needs of the intended audience.
 
 
@@ -129,7 +151,8 @@ excavators, tower cranes & specialised engineering contractors.
 
 Temporal is a framework for a different level of engineering challenge.
 If you're not building the digital equivalent of a Skyscraper,
-use something simpler that doesn't require a dedicated DevOps person on your team!
+use something simpler 
+that doesn't require a dedicated DevOps person on your team.
 
 The vast majority of architects, engineers and trades people are not building skyscrapers.
 But if you are a City Planner or Structural Engineer, 
