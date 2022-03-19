@@ -191,26 +191,14 @@ Found prebuilt bridge module {
 }
 [INFO] [temporal_sdk_core] Registering worker task_queue="hello-world"
 [INFO] assets by path learn-temporal/tutorial/lib/*.map 585 bytes
-[INFO]   asset learn-temporal/tutorial/lib/workflows.d.ts.map 192 bytes [compared for emit]
-[INFO]   asset learn-temporal/tutorial/lib/activities.d.ts.map 181 bytes [compared for emit]
-[INFO]   asset learn-temporal/tutorial/lib/client.d.ts.map 106 bytes [compared for emit]
-[INFO]   asset learn-temporal/tutorial/lib/worker.d.ts.map 106 bytes [compared for emit]
-[INFO] assets by path learn-temporal/tutorial/lib/*.ts 347 bytes
-[INFO]   asset learn-temporal/tutorial/lib/workflows.d.ts 151 bytes [compared for emit]
-[INFO]   asset learn-temporal/tutorial/lib/activities.d.ts 102 bytes [compared for emit]
-[INFO]   asset learn-temporal/tutorial/lib/client.d.ts 47 bytes [compared for emit]
-[INFO]   asset learn-temporal/tutorial/lib/worker.d.ts 47 bytes [compared for emit]
+...
+[INFO] asset learn-temporal/tutorial/lib/workflows.d.ts 151 bytes [compared for emit]
+[INFO] asset learn-temporal/tutorial/lib/activities.d.ts 102 bytes [compared for emit]
+[INFO] asset learn-temporal/tutorial/lib/client.d.ts 47 bytes [compared for emit]
+[INFO] asset learn-temporal/tutorial/lib/worker.d.ts 47 bytes [compared for emit]
 [INFO] asset main.js 491 KiB [emitted] (name: main)
 [INFO] runtime modules 670 bytes 3 modules
-[INFO] modules by path ./node_modules/@temporalio/ 129 KiB
-[INFO]   modules by path ./node_modules/@temporalio/common/lib/ 53.2 KiB
-[INFO]     modules by path ./node_modules/@temporalio/common/lib/*.js 44.7 KiB 14 modules
-[INFO]     modules by path ./node_modules/@temporalio/common/lib/converter/*.js 8.52 KiB 3 modules
-[INFO]   modules by path ./node_modules/@temporalio/workflow/lib/*.js 75.9 KiB
-[INFO]     ./node_modules/@temporalio/workflow/lib/worker-interface.js 9.64 KiB [built] [code generated]
-[INFO]     ./node_modules/@temporalio/workflow/lib/internals.js 18.4 KiB [built] [code generated]
-[INFO]     ./node_modules/@temporalio/workflow/lib/alea.js 2.9 KiB [built] [code generated]
-[INFO]     + 7 modules
+...
 [INFO] ../../../../../src/main.js 413 bytes [built] [code generated]
 [INFO] ./src/workflows.ts 386 bytes [built] [code generated]
 [INFO] ./node_modules/long/src/long.js 39.2 KiB [built] [code generated]
@@ -244,14 +232,20 @@ Hello, Temporal!
 ```
 
 
-
+If you view the summary of this workflow execution
+in your browser, e.g:
 
 ![image](https://user-images.githubusercontent.com/194400/157565604-c06efc45-c0a8-440c-864d-8b36ade7a956.png)
+
+This execution log is tremendously powerful
+for apps that _need_ it.
 
 
 <br /> <br />
 
 ## Tidy Up Time
+
+
 
 ### Done with Docker?
 

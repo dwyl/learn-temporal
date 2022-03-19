@@ -21,7 +21,7 @@ with built-in task queue, state management and retry mechanism
 to handle communicating/coordinating with several slow 
 or unreliable 3rd party systems.
 
-If that sounds like a bit of a buzzword soup ...
+If that sounds like a bit of a buzzword bingo ...
 
 <img alt="dilbert buzzword bingo" 
   src="https://user-images.githubusercontent.com/194400/158487250-dc73bdff-3afa-4234-9b0f-da65852a0e87.png">
@@ -119,15 +119,21 @@ https://docs.temporal.io/docs/typescript/activities/
 https://github.com/temporalio/sdk-typescript
 
 <br />
+<br />
 <hr />
+<br />
 <br />
 
 ### Building Construction Analogy
 
-If we use real-world construction as the basis for an analogy.
+For a quick analogy, let's take real world building construction:
 
 <img width="1047" alt="skyscraper vs. house" 
   src="https://user-images.githubusercontent.com/194400/158482229-c4de7310-6f60-40a9-90fd-347392126293.png">
+
+If someone asks an Architect to design a place to live for them and their family,
+there are _many_ questions  them to clarify their requirements.
+Do they 
 
 If you're building a free-standing single-family home,
 traditional framing 
@@ -140,7 +146,6 @@ and it's still a perfectly valid means of construction today.
 This would be your standard 
 but perfectly functional web framework
 which can be deployed in 5 minutes and scaled to meet the demand/needs of the intended audience.
-
 
 However if you are building a **sky scraper** or a new **city**,
 you need to think about the _infrastructure_ and use a very different 
@@ -157,3 +162,44 @@ that doesn't require a dedicated DevOps person on your team.
 The vast majority of architects, engineers and trades people are not building skyscrapers.
 But if you are a City Planner or Structural Engineer, 
 then by all means use consider the advanced tools for the job.
+
+<br />
+
+Examples of projects that became their own _planets_ with relatively simple tech stacks:
+
+**Instagram** reached **500 million** users 
+using the **`Django`** Web framework 
+and horizontal scaling:
+https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366
+
+**WhatsApp** built their messaging infrastructure 
+in **`Erlang`** 
+reaching **900 million** monthly **active users**
+sending **60 Billion daily messages**
+with **50 engineers**
+(mostly on the Android/iOS apps!) 
+and a **$19 Billion** valuation:
+https://www.wired.com/2015/09/whatsapp-serves-900-million-users-50-engineers/
+These are both examples of 
+["boring" tech](https://www.radicalsimpli.city/)
+that are perfect choices for their chosen application.
+
+<br />
+
+Remember:
+
+> "_If it takes an hour 
+to figure out what’s going on, 
+well, that’s an hour 
+that wasn’t spent doing something else 
+more useful and interesting._" 
+~ [Rachel Kroll](https://rachelbythebay.com/w/2021/09/05/clever/)
+
+There are no shortage of Ghostscrapers 
+and Ghost cities in the world, 
+e.g: 
+https://en.wikipedia.org/wiki/Under-occupied_developments_in_China 
+and  
+https://youtu.be/lLzJpCd5X9g
+
+If you build something 
