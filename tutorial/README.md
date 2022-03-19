@@ -1,14 +1,21 @@
-# Hello World _Tutorial_
+<div align="center">
 
-This is the default project that is scaffolded out when you run 
+# `Hello World` Temporal _Tutorial_
+
+Hello world in Temporal from scratch 
+using `TypeScript` 
+in **_less_ than 10 mins**!
+</div>
+
+<br />
+
+This is the default project that is scaffolded out when you run:
 `npx @temporalio/create@latest ./tutorial`.
 
 <!--
 https://docs.temporal.io/docs/typescript/hello-world
 walks through the code in this sample.
 -->
-
-
 ### Prerequisites
 
 To run this example, you will need:
@@ -18,13 +25,13 @@ To run this example, you will need:
 + [x] Node.js: https://nodejs.org/en
 + [x] Internet connection to download the dependencies
 + [x] 10 minutes of time.
-
-
+ 
+<br />
 
 ### Run the Complete Example
 
 Before you begin the tutorial,
-try to run the _finished_ project.
+try to run the _finished_ project:
 
 1. Clone the project:
 
@@ -33,11 +40,15 @@ git clone https://github.com/dwyl/learn-temporal.git
 ```
 
 Once you've cloned the project,
-enter the `learn-temporal` directory.
+enter the `learn-temporal` directory
+on your machine:
 
 ```sh
-cd learn-tutorial
+cd learn-temporal
 ```
+
+<br />
+
 
 2. Prepare to Run the Project 
 
@@ -45,7 +56,7 @@ Open a **_second_ terminal window**
 so you can run the Temporal Server
 (Docker containers).
 
-In your **_current_ terminal window**, 
+In your **_first_ terminal window**, 
 change working directory 
 into the `tutorial` directory:
 
@@ -53,17 +64,13 @@ into the `tutorial` directory:
 cd tutorial
 ```
 
-In the second terminal window,
-change into the `docker-compose` window:
-
-```sh
-cd docker-compose
-```
+<br />
 
 
 3. Install the Node.js Dependencies
 
-> **Note**: Don't run this command using your mobile bandwidth 
+> **Note**: _Again_, don't run this command 
+> using your mobile bandwidth 
 (unless you have an unlimited plan) 
 as it will download [**`500 MB`+**](https://github.com/dwyl/learn-temporal/issues/1#issuecomment-1066741638) of data.
 
@@ -78,7 +85,26 @@ You should see something similar to:
 added 361 packages from 271 contributors and audited 361 packages in 9.762s
 ```
 
+<!--
+Makes perfect sense to trust 271 random strangers on the internet with the security of your project.
+https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/
+-->
+
+<br />
+
 4. Install & Initialize the Docker Containers
+
+In the **_second_ terminal window**,
+change into the `docker-compose` directory:
+
+```sh
+cd docker-compose
+```
+
+> **Note**: Don't run the next command using your mobile bandwidth 
+(unless you have an unlimited plan) 
+as it will download **`300 MB`+** of data.
+
 
 Run the Temporal Server locally,
 by issuing the following command 
@@ -135,6 +161,11 @@ open a second terminal window/tab
 and run the following:
 -->
 
+
+
+Once you have the docker containers running,
+it's _finally_ time to run the Temporal Workflow.
+
 <br />
 
 5. Run the Worker
@@ -188,6 +219,8 @@ Found prebuilt bridge module {
 [INFO] Workflow bundle created { size: '0.48MB' }
 [INFO] Worker state changed { state: 'RUNNING' }
 ```
+
+<br />
 
 
 6. Run the Workflow
